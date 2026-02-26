@@ -5,7 +5,5 @@ services:
     container_name: birthdaygf-app
     build: .
     ports:
-      - "3000:3000"
+      - "8080:80"
     restart: unless-stopped
-    environment:
-      - NODE_ENV=production
